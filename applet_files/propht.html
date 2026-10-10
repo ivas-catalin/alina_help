@@ -1,0 +1,44 @@
+<HTML>
+<H3>Hypothesis tests for a proportion</H3>
+<P>
+
+The applet below allows one to visually investigate hypothesis tests
+for a proportion. Specify the sample size (<B>n</B>), the true
+proportion (<B>True p</B>), the null value for the proportion (<B>Null
+p</B>) and the alternative for the test (<B>Alternative</B>).  When
+you click the <B>Simulate</B> button, 100 separate samples of size
+<B>n</B> will be selected from a population with a proportion of
+successes equal to <B>True p</B>.  For each of the 100 samples, a
+hypothesis test based on the Z statistic is performed, and the results
+from each test are displayed in the plots to the right.  The test
+statistic for each test is shown in the top plot, and the P-value is
+shown in the bottom plot.  The green and blue lines represent the cut
+offs for rejecting the null with the 0.05 and 0.01 level tests,
+respectively.  Additional simulations can be carried out by clicking the <B>Simulate</B> button multiple times.  
+The cumulative number of times that each test rejects
+the null hypothesis is also tabled.  Press the <B>Clear</B> button to
+clear existing results and start a new simulation.  Things to try with
+the applet:
+
+<MENU>
+<LI> Simulate at least 1000 tests with <B>n</B> = 100, <B>p</B> = 0.5, <B>Null p</B> = 0.5 and the not equal alternative.  What proportion of the 0.05 level tests reject the null?  What proportion of the 0.01 level tests reject the null?  
+<LI> Simulate at least 1000 tests with <B>n</B> = 100, <B>p</B> = 0.5, <B>Null p</B> = 0.2 and the not equal alternative.  What proportion of the 0.05 level tests reject the null?  What proportion of the 0.01 level tests reject the null?
+<LI> Simulate at least 1000 tests with <B>n</B> = 30, <B>p</B> = 0.1, <B>Null p</B> = 0.1 and the not equal alternative.  What proportion of the 0.05 level tests reject the null?  What proportion of the 0.01 level tests reject the null?  
+<LI> Simulate at least 1000 tests with <B>n</B> = 30, <B>p</B> = 0.1, <B>Null p</B> = 0.5 and the not equal alternative.  What proportion of the 0.05 level tests reject the null?  What proportion of the 0.01 level tests reject the null?
+<LI> You can also use this applet to simulate a power curve.  For a fixed value of <B>null p</B>, simulate 1000 tests
+	(10 clicks of the simulate button) for each value of <B>true p</B> over a range of 0.1,0.2,...,0.9.  
+	Plot the simulated power curve which is the proportion of times 
+	the null is rejected versus the value of <B>true p</B>.  You can repeat this process for different types of
+	alternatives and for different values of <B>null p</b> and <B>n</B> in order to get a better understanding of 
+	how these quantities impact the power curve of the test.
+</MENU>
+<P>
+	<TABLE BORDER=1>
+<TR>
+<TD>
+<APPLET code="PropHTApplet.class" width = 770 height = 500> 
+</APPLET>
+</TD>
+</TR>
+</TABLE>
+</HTML>

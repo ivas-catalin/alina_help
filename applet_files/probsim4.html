@@ -1,0 +1,45 @@
+<HTML>
+<H3>Simulating the probability of a head with an unfair coin (P(H) = 0.2)</H3>
+<P>
+
+The applet below allows for investigating the probability of a head
+when flipping an unfair coin via simulation.  The plot in the top left
+corner shows the probability associated with each outcome of a coin
+flip.  In this case, the coin is biased towards tails in that the true
+probability of a head is 0.2.  When the <B>Flip</B> button is clicked,
+<B>n</B> simulations of the experiment of flipping the coin are
+performed.  The results of the simulations are shown in the plot below
+the top plot.  If the <B>Animate</B> option is checked, the display
+will show each outcome dropping into the second plot.  To stop an
+animation uncheck the <B>Animate</B> option.  The individual outcomes
+are shown in the text field to the far right of the applet.  The
+center plot shows the cumulative proportion of times that an event of
+head occurs in red.  The green line in the plot reflects the true
+probability of a head.  As the experiment is conducted more and more
+times, the cumulative proportion should converge to the true value.
+Things to try with the applet:
+
+<MENU>
+
+<LI> Run the simulation 10 times (<B>n</B> = 10). How close is the cumulative proportion to the true value?  Click the <B>Reset</B> button to the clear the results, and then run the simulation 10 times again.  How does the cumulative proportion compare to your previous value?  Repeat this process a few more times and continue to compare values of the cumulative proportion.
+
+<LI> Run the simulation 1000 times (<B>n</B> = 1000). How close is the cumulative proportion to the true value?  Click the <B>Reset</B> button to the clear the results, and then run the simulation 1000 times again.  How does the cumulative proportion compare to your previous value?  Repeat this process a few more times and continue to compare values of the cumulative proportion.
+
+</MENU>
+
+<P>
+<TABLE BORDER=1>
+<TR>
+<TD>
+<APPLET code="ProbSimApplet.class" width = 770 height = 500> 
+<PARAM name="labs" value ="Head,Tail">
+<PARAM name="probs" value ="0.2,0.8">
+<PARAM name="event" value ="0">
+<PARAM name="button" value ="Flip">
+<PARAM name="eventlab" value ="Head">
+</APPLET>
+</TD>
+</TR>
+</TABLE>
+
+</HTML>

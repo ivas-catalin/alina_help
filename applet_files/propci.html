@@ -1,0 +1,23 @@
+<HTML>
+<H3>Confidence intervals for a proportion</H3>
+<P>
+
+The applet below allows one to visually investigate confidence intervals for a proportion. Specify the sample size <B>n</B> and the true proportion <B>p</B>.  When you click the <B>Simulate</B> button, 100 separate samples of size <B>n</B> will be selected from a population with a proportion of successes equal to <B>p</B>.  For each of the 100 samples, a <font color="green">95% confidence interval</font> and a <font color="blue">99% confidence interval</font> are displayed in the plot to the right.  Each of these intervals is computed based using the standard normal approximation.  If an interval <font color ="red">does not contain</font> the true proportion, it is displayed in red.  Note that the 99% confidence interval is always wider than the 95% confidence interval.  Additional simulations can be carried out by clicking the <B>Simulate</B> button multiple times.  The cumulative number of times that each type of interval contains the true proportion is also tabled.  Press the <B>Clear</B> button to clear existing results and start a new simulation.  Things to try with the applet:
+
+<MENU>
+
+<LI> Simulate at least 1000 intervals with <B>n</B> = 100 and <B>p</B> = 0.5.  What proportion of the 95% confidence intervals contain 0.5?  What proportion of the 99% confidence intervals contain 0.5?  How does the typical width of these intervals compare to the <B>n</B> = 30 and <B>p</B> = 0.5 case above?
+<LI> Simulate at least 1000 intervals with <B>n</B> = 30 and <B>p</B> = 0.1.  What proportion of the 95% confidence intervals contain 0.1?  What proportion of the 99% confidence intervals contain 0.1? 
+<LI> Simulate at least 1000 intervals with <B>n</B> = 30 and <B>p</B> = 0.5.  What proportion of the 95% confidence intervals contain 0.5?  What proportion of the 99% confidence intervals contain 0.5?  
+
+</MENU>
+<P>
+	<TABLE BORDER=1>
+<TR>
+<TD>
+<APPLET code="PropCIApplet.class" width = 770 height = 500> 
+</APPLET>
+</TD>
+</TR>
+</TABLE>
+</HTML>
